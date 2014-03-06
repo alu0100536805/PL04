@@ -2,9 +2,9 @@ require 'rubygems'
 require 'sinatra'
 
 get '/' do
-erb :index
+	erb :index
 end
 
 get '/test' do
-erb :test
+	erb :test
 end
