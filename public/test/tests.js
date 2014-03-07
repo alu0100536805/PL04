@@ -3,7 +3,7 @@ var assert = chai.assert;
 suite('Analizador', function() {
     	test('Probando dump', function() {
 			dump("assignment.txt");
-			window.onload=function(){assert.equal($("#INPUT").val(), "var a = 2;\n");}
+			window.onload=function(){assert.equal($("#INPUT").val(), "var b = 45;\n");}
 		});
 		test('Probando parse', function() {
 			dump("assignment.txt");
